@@ -1,0 +1,17 @@
+base
+tint
+tidyverse
+ggplot2
+tibble
+tidyr
+readr
+purrr
+dplyr
+stringr
+forcats
+readxl
+lubridate
+ggalluvial
+parcats
+easyalluvial
+DataExplorer
