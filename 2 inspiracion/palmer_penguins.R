@@ -10,7 +10,7 @@ library(patchwork)
 library(rsvg)
 
 #read data
-setwd("D:/ABCN/Github/MDv01sesion3_parte-practica/2 inspiracion")
+setwd("~/GitHub/MDv01sesion3_parte-practica/2 inspiracion")
 penguins <- readr::read_csv("penguins.csv")
 
 #tidy
@@ -91,14 +91,14 @@ p3 <- adelie %>%
   )
 p3
 
-setwd("D:/ABCN/Github/MDv01sesion3_parte-practica/2 inspiracion/images_penguins")
+setwd("~/GitHub/MDv01sesion3_parte-practica/2 inspiracion/images_penguins")
 ## Adelie Image
 ggdraw() +
   draw_image("adelie.png", width = 1.2, height = 1.3) +
   draw_text("A D E L I E", y = 1.25, size = 16, family = "Leelawadee UI Semilight") -> adelie_img
 
 ## Gentoo Image
-setwd("D:/ABCN/Github/MDv01sesion3_parte-practica/2 inspiracion/images_penguins")
+setwd("~/GitHub/MDv01sesion3_parte-practica/2 inspiracion/images_penguins")
 
 ggdraw() +
   draw_image("gentoo.png", width = 1.2, height = 1.3) +
