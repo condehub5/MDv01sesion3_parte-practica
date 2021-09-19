@@ -18,7 +18,7 @@ sapply(barreras,class)
 barreras$`FECHA DE MODIF.` # "POSIXct" "POSIXt"  es un formato especial de fecha, más específico.
 table(barreras$`TIPO DE ACTUACIÓN`)
 table(barreras$ENTIDAD)
-unique(barreras$ENTIDAD)
+
 
 
 barreras$TIPO_ENTIDAD <- "Otros" # creando variables poniendo otros como ejemplo
